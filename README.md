@@ -12,3 +12,4 @@
 - `npm run build:prod` : Génère les ressources front avec compression (minify, uglify) en vue d'une utilisation dans un environnement de production
 - `npm run clean` : Supprime les fichiers générés par Webpack
 - `npm run clean:all` : Supprime les fichiers générés par Webpack ainsi que le répertoire des dépendances installées avec NPM (`node_modules`)
+- `sudo npm install -g npm` : Actualiser Npm
