@@ -1,5 +1,17 @@
 # Modèle de configuration de Webpack pour WordPress
 
+## Réutilisation
+1. Cloner le repo `git clone git@github.com:Claire-Lavigne/Webpack-Pattern-Claire.git`
+2. Renommer le dossier cloné `mv Webpack-Pattern-Claire <nomduprojet>`
+3. Se rendre dans le dossier `cd <nomduprojet>`
+4. Supprimer le dossier `.git` afin de repartir d'un repo tout neuf `sudo rm -R .git`
+5. Initialisation d'un git tout beau tout neuf `git init`
+6. Premier versionning de notre repo:
+  - `git add .`
+  - `git commit -m "First Commit"`
+  - `git remote add origin git@github.com:Claire-Lavigne/Webpack-Pattern-Claire.git`
+  - `git push -u origin master`
+
 ## Installation
 
 1. Exécuter dans le répertoire la commande `npm install` qui va installer toute les dépendances Node.js nécessaire au bon fonctionnement de l'application.
