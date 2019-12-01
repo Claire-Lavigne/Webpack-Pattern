@@ -3,7 +3,7 @@
 ## Réutilisation
 1. Cloner le repo `git clone git@github.com:Claire-Lavigne/Webpack-Pattern-Claire.git`
 2. Renommer le dossier cloné `mv Webpack-Pattern-Claire <nomduprojet>`
-3. Se rendre dans le dossier `cd <nomduprojet>`
+3. Se rendre dans le dossier `cd <nomduprojet>` et l'ouvrir dans vscode `code .`
 4. Supprimer le dossier `.git` afin de repartir d'un repo tout neuf `sudo rm -R .git`
 5. Initialisation d'un git tout beau tout neuf `git init`
 6. Premier versionning de notre repo:
@@ -25,3 +25,6 @@
 - `npm run clean` : Supprime les fichiers générés par Webpack
 - `npm run clean:all` : Supprime les fichiers générés par Webpack ainsi que le répertoire des dépendances installées avec NPM (`node_modules`)
 - `sudo npm install -g npm` : Actualiser Npm
+
+## Options
+- dépendances (npmjs) : reset-css, bootstrap
