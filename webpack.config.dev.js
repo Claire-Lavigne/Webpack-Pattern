@@ -129,10 +129,10 @@ let config = {
     new webpack.HotModuleReplacementPlugin(),
     new BrowserSyncPlugin(
       {
-        host: '0.0.0.0',
+        host: '127.0.0.1',
         port: 3000,
         proxy: 'http://localhost:3100/',
-        open: 'external',
+        open: false,
       },
       {
         // Browsersync ne se charge pas du reload, c'est le rôle du Dev Server
