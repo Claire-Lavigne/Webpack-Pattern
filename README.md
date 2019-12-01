@@ -27,4 +27,8 @@
 - `sudo npm install -g npm` : Actualiser Npm
 
 ## Options
-- dépendances (npmjs) : reset-css, bootstrap
+- dépendances (npmjs) : reset-css ou normalize, bootstrap
+- main.scss : importer bootstrap, reset/normalize et fichiers
+- base.scss : importer google fonts et variables
+  - * --> box-sizing: border-box; (si pas dans reset)
+  - body --> font-family: $font-family, $font-family-fallback;
